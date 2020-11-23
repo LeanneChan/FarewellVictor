@@ -132,7 +132,34 @@ var russia = [
     },
     "properties": {
     "Name":"All",
-    "Message":"All the best Victor! :D"
+    "Message":"DNE 2019",
+    "Photo": "dnd.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       //"coordinates":  [ 103.7481956,1.417810505 ]
+       "coordinates":  [ 102.015680,58.691560]
+    },
+    "properties": {
+    "Name":"All",
+    "Message":"Karen's Farwell - Meeting Room 1",
+    "Photo": "karensFarewell.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       //"coordinates":  [ 103.7481956,1.417810505 ]
+       "coordinates":  [ 79.6078263,60.016351]
+    },
+    "properties": {
+    "Name":"All",
+    "Message":"Team Building Event",
+    "Photo": "team.jpg"
     }
   }
 ]
