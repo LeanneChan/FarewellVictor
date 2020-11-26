@@ -9,7 +9,7 @@ var create_marker = function(row){
     //var color='#049c94';
     var radius= 12;
     var pathOpts = {'radius': radius, 'fillColor': color, 'fillOpacity':0.8, 'stroke': false};
-    var marker = L.circleMarker([lat, lng], pathOpts).bindPopup("<b>Name: </b>"+name+"</br> <b>Message: </b>"+msg);
+    var marker = L.circleMarker([lat, lng], pathOpts).bindPopup("<b>From: </b>"+name+"</br> <b>Message: </b>"+msg);
     return marker;
 }
 
